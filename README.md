@@ -1,6 +1,12 @@
 # Metro Simulation Project
 The aim of this project is to calculate the route with the least transfers and the fastest time between metro lines and stations using A* and BFS.
 
+First of all, we can examine the node-edge visualization showing the metro lines, transfers and the kilometers between two stations with the network library.
+
+![Ekran Görüntüsü](https://github.com/ecessuvural/MetroSimulation/raw/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-23%20172040.png)
+
+
+
 ## BFS Algorithm
 An technique called BFS (Breadth-First Search) is used to determine the shortest path in tree or graph topologies.  It begins at the beginning and proceeds in order to the nodes in each level.
 
@@ -65,7 +71,32 @@ Because the BFS and A* algorithms are both efficient for shortest path and effec
 
 ## Examples and Results
 
-![Scenario4](https://raw.githubusercontent.com/ecessuvural/MetroSimulation/refs/heads/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-23%20164917.png?token=GHSAT0AAAAAADAQ56QQ7EDDYLCHHM5M2KIQZ7ACX6A)
+
+
+![Scenario4](https://github.com/ecessuvural/MetroSimulation/blob/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-23%20164917.png?raw=true)
+
+![Ekran Görüntüsü](https://github.com/ecessuvural/MetroSimulation/raw/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-23%20171948.png)
+
+As can be seen, the duration of the fastest route with the fewest transfers from Keçiören to Demetevler has been calculated.
+
+BFS was used for the fewest transfers and A* was used for the fastest route and duration calculation. The contents of the algorithm and other test examples can be accessed from the project file.
+
+We can also examine the graph comparing the fastest route times for 4 different scenarios in the project file. This method can make comparisons easier when there are multiple scenarios.
+
+![Ekran Görüntüsü](https://github.com/ecessuvural/MetroSimulation/raw/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-23%20174021.png)
+
+## Project Development Ideas
+
+**UI and Notification:** If the project is to be implemented as an application, the UI design can be developed and various notifications can be sent to the user according to the metro line the user wants.
+
+**Artificial Intelligence Support:** In this way, the user can ask questions to the artificial intelligence about the routes they will take and receive support such as directions, location suggestions specific to the route they will take, etc.
+
+**Statistics and Data Analysis:** By examining the busiest lines and hours, density information can be provided to the user.
+
+**Suggestions:** Route suggestions can be made according to the user's wishes. These may include information about the malfunction status of the metro or how many minutes remain until it reaches the station.
+
+
+
 
 
 
