@@ -65,7 +65,7 @@ Because the BFS and A* algorithms are both efficient for shortest path and effec
 
 ## Examples and Results
 
-![Scenario4]
+![Scenario4](https://raw.githubusercontent.com/ecessuvural/MetroSimulation/refs/heads/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-03-23%20164917.png?token=GHSAT0AAAAAADAQ56QQ7EDDYLCHHM5M2KIQZ7ACX6A)
 
 
 
